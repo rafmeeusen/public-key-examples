@@ -2,7 +2,7 @@ printf "Openssl command line examples\n"
 printf ""
 
 printf "Generate rsa private key\n"
-openssl genrsa -out rsa_privkey.pem
+openssl genpkey -algorithm rsa -pkeyopt rsa_keygen_bits:2048 -out rsa_privkey.pem
 openssl rsa -in rsa_privkey.pem -text -out rsa_privkey.txt
 
 printf "Calculate rsa public key from private key\n"
