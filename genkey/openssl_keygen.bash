@@ -1,13 +1,14 @@
+OUTDIR=../output
 
-PRIV_RSA_PEM=privkey.rsa.pem
-PRIV_RSA_TXT=privkey.rsa.txt
-PUB_RSA_PEM=pubkey.rsa.pem
-PUB_RSA_TXT=pubkey.rsa.txt
+PRIV_RSA_PEM=$OUTDIR/privkey.rsa.pem
+PRIV_RSA_TXT=$OUTDIR/privkey.rsa.txt
+PUB_RSA_PEM=$OUTDIR/pubkey.rsa.pem
+PUB_RSA_TXT=$OUTDIR/pubkey.rsa.txt
 
-PRIV_EC_PEM=privkey.ec.pem
-PRIV_EC_TXT=privkey.ec.txt
-PUB_EC_PEM=pubkey.ec.pem
-PUB_EC_TXT=pubkey.ec.txt
+PRIV_EC_PEM=$OUTDIR/privkey.ec.pem
+PRIV_EC_TXT=$OUTDIR/privkey.ec.txt
+PUB_EC_PEM=$OUTDIR/pubkey.ec.pem
+PUB_EC_TXT=$OUTDIR/pubkey.ec.txt
 
 
 printf "Openssl command line examples\n"
